@@ -1,0 +1,47 @@
+baseURL = "https://sboysel.github.io/"
+languageCode = "en-us"
+title = "Sam Boysel"
+canonifyURLs = true
+enableEmoji = true
+googleAnalytics = "UA-XXXXXX-1"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+theme = "pristine"
+
+[params]
+    portrait = "img/portrait.png"
+    
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+[[menu.main]]
+  name = "All Articles"
+  url = "/all/"
+  weight = 2
+
+[[menu.projects]]
+  name = "FPPSSA"
+  url = "http://cournot.sun.ac.za/fppssa/"
+  weight = 1
+[[menu.projects]]
+  name = "fredr: R client for FRED API"
+  url = "https://github.com/sboysel/fredr"
+  weight = 2
+[[menu.projects]]
+  name = "boysel: miscellaneous R functions"
+  url = "https://github.com/sboysel/boysel"
+  weight = 3
+
+[[params.social]]
+    title = "CV"
+    url = "/pdf/cv-sboysel-09122018.pdf"
+[[params.social]]
+    title = "boysel@usc.edu"
+    url = "mailto:boysel@usc.edu"
+[[params.social]]
+    title = "@samjboysel"
+    url = "https://twitter.com/samjboysel"
+[[params.social]]
+    title = "Github"
+    url = "https://github.com/sboysel"
